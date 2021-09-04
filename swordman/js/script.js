@@ -1,6 +1,4 @@
 
-
-
 var mulai= document.getElementById('white');
 var ultimate= document.getElementById('black');
 var devensive = document.getElementById('serang');
@@ -22,13 +20,11 @@ mulai.onclick = function (){
 setTimeout(() => {
     ninja1.setAttribute('id', 'satu');
     ninja2.setAttribute('id', 'dua');
-
 }, 1000);
 setTimeout(() => {
 sword.play()
 ninja1.setAttribute('id', 'ninja1');
 ninja2.setAttribute('id', 'ninja2');
-
 }, 2000);
 setTimeout(() => {
     ninja1.setAttribute('id', 'satu');
@@ -73,49 +69,37 @@ setTimeout(() => {
     ninja2.setAttribute('id', 'dua');
 }, 13000);
 setTimeout(() => {
-sword.play()
-ninja1.setAttribute('id', 'ninja1');
-ninja2.setAttribute('id', 'ninja2');
-
+    sword.play()
+    ninja1.setAttribute('id', 'ninja1');
+    ninja2.setAttribute('id', 'ninja2');
 },14000);
 setTimeout(() => {
-
-ninja1.setAttribute('id', 'satu');
-ninja2.setAttribute('id', 'dua');
-    
+    ninja1.setAttribute('id', 'satu');
+    ninja2.setAttribute('id', 'dua');
 },15000);
     
 setTimeout(() => {
-ninja1.setAttribute('id', 'satu');
-ninja2.setAttribute('id', 'dua');
-
+    ninja1.setAttribute('id', 'satu');
+    ninja2.setAttribute('id', 'dua');
 },16000);
 setTimeout(() => {
-
-ninja1.setAttribute('id', 'satu');
-ninja2.setAttribute('id', 'dua');
-
+    ninja1.setAttribute('id', 'satu');
+    ninja2.setAttribute('id', 'dua');
 },17000);
 setTimeout(() => {
-
-ninja1.setAttribute('id', 'satu');
-ninja2.setAttribute('id', 'dua');
-
+    ninja1.setAttribute('id', 'satu');
+    ninja2.setAttribute('id', 'dua');
 },18000);
 setTimeout(() => {
-
-ninja1.setAttribute('id', 'atas1');
-ninja2.setAttribute('id', 'atas2');
-
+    ninja1.setAttribute('id', 'atas1');
+    ninja2.setAttribute('id', 'atas2');
 },19000);
 setTimeout(() => {
-sword.play()
-ninja1.setAttribute('id', '');
-ninja2.setAttribute('id', '');
+    sword.play()
+    ninja1.setAttribute('id', '');
+    ninja2.setAttribute('id', '');
 },20000);
-
-
-}
+})
 
 
 jurus = ultimate.onclick = function (){
@@ -204,7 +188,9 @@ setTimeout(() => {
     api.setAttribute('id', '')
 
 }, 8500);
-}
+});
+
+
 
 haha = devensive.addEventListener('click', function(){
 setTimeout(() => {
@@ -215,53 +201,50 @@ ninja2.setAttribute('id', 'dua');
 },1000);
 setTimeout(() => {
     pop4.play()
-ninja1.setAttribute('id', 'satu');
-ninja2.setAttribute('id', 'dua');
-api2.setAttribute('id', '');
-petir2.setAttribute('id', 'transisi2');
+    ninja1.setAttribute('id', 'satu');
+    ninja2.setAttribute('id', 'dua');
+    api2.setAttribute('id', '');
+    petir2.setAttribute('id', 'transisi2');
 },2000);
     
 setTimeout(() => {
     pop3.play()
-ninja1.setAttribute('id', 'satu');
-ninja2.setAttribute('id', 'dua');
-api2.setAttribute('id', '');
-petir2.setAttribute('id', '');
+    ninja1.setAttribute('id', 'satu');
+    ninja2.setAttribute('id', 'dua');
+    api2.setAttribute('id', '');
+    petir2.setAttribute('id', '');
 },5000);
     
 setTimeout(() => {
     
-ninja1.setAttribute('id', 'satu');
-ninja2.setAttribute('id', 'dua');
-api2.setAttribute('id', 'transisi');
-petir2.setAttribute('id', '');
-pop3.play()
+    ninja1.setAttribute('id', 'satu');
+    ninja2.setAttribute('id', 'dua');
+    api2.setAttribute('id', 'transisi');
+    petir2.setAttribute('id', '');
+    pop3.play()
 },6000);
 
 setTimeout(() => {
-ninja1.setAttribute('id', 'satu');
-ninja2.setAttribute('id', 'dua');
-api2.setAttribute('id', '');
-petir2.setAttribute('id', '');
+    ninja1.setAttribute('id', 'satu');
+    ninja2.setAttribute('id', 'dua');
+    api2.setAttribute('id', '');
+    petir2.setAttribute('id', '');
 },19000);
 
 setTimeout(() => {
-ninja1.setAttribute('id', '');
-ninja2.setAttribute('id', '');
-api2.setAttribute('id', '');
-petir2.setAttribute('id', '');
+    ninja1.setAttribute('id', '');
+    ninja2.setAttribute('id', '');
+    api2.setAttribute('id', '');
+    petir2.setAttribute('id', '');
 },20000);
     
-
-
-
-})
+});
     
 
 
 
 
-
+//coding untuk membuat object searah atau mirror dengan mousemove kita
 /*document.body.addEventListener('mousemove', function(even){
     const elem = document.getElementById("");
    
