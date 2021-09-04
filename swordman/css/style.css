@@ -1,0 +1,126 @@
+
+
+html, body{
+    width: 100%;
+    height: 100%;  
+}
+
+
+.ninja{
+    transition: 1s;
+}
+
+#ninja1, #ninja2{
+    display: inline;
+} 
+
+#ninja1{
+    position: absolute;
+    margin-top: 400px;
+    margin-left: 43%;
+}
+
+#ninja2{
+    position: relative;
+    margin-top: 400px;
+    margin-left: 38%;
+}
+
+#satu{
+    position: absolute;
+    margin-top: 400px;
+    margin-left: 100px;
+    }
+
+#dua{
+
+    margin-top: 400px;
+    margin-left: 1200px;
+}
+
+#atas1{
+    position:absolute;
+}
+
+#atas2{
+    position: relative;
+    margin-left: -25px;
+}
+
+.petir{
+    display: none;
+}
+
+#petir{
+    
+    position: relative;
+    bottom: 600px;
+    display: inline;
+}
+#petir2{
+    
+    position: relative;
+    bottom: 600px;
+    display: inline;
+    left: 5px;
+}
+
+.api{
+    display: none;
+}
+
+
+
+#api{
+    position: relative;
+    bottom: 550px;
+    transition: 1s ;
+    display: inline;
+}
+#api2{
+
+    position: relative;
+    bottom: 550px;
+    left: 700px;
+    display: inline;
+    transition: 1s;
+}
+#api3{
+
+    position: relative;
+    bottom: 550px;
+    left: 1200px;
+    display: inline;
+}
+
+#evolution {
+    display: inline;
+    margin-top: 100px;
+}
+#evolution2 {
+    display: inline;
+    position: relative;
+    bottom: 500px;
+    margin-left: 900px;
+}
+
+.evolution{
+    display: none;
+}
+
+#transisi {
+display: inline;
+position: relative;
+bottom: 290px;
+}
+#transisi2 {
+display: inline;
+position: relative;
+left: 1200px;
+bottom: 400px;
+}
+
+
+.transisi {
+    display: none;
+}
