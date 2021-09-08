@@ -1,18 +1,21 @@
+const objek = [
+ document.getElementById('white'),
+ document.getElementById('black'),
+ document.getElementById('serang'),
+ document.getElementsByTagName('img')[0],
+ document.getElementsByTagName('img')[1],
+ document.getElementsByTagName('img')[2],
+ document.getElementsByTagName('img')[3],
+ document.getElementsByTagName('img')[4],
+ document.getElementsByTagName('img')[5],
+ document.getElementsByTagName('audio')[0],
+ document.getElementsByTagName('audio')[1],
+ document.getElementsByTagName('audio')[2],
+ document.getElementsByTagName('audio')[3],
+ document.getElementsByTagName('audio')[4]
+]
+const [mulai,ultimate, devensive, ninja1,ninja2, petir1, api1, api2, petir2, sword, pop, pop2, pop3, pop4] = objek;
 
-var mulai= document.getElementById('white');
-var ultimate= document.getElementById('black');
-var devensive = document.getElementById('serang');
-var ninja1 = document.getElementsByTagName('img')[0];
-var ninja2 = document.getElementsByTagName('img')[1];
-var petir1= document.getElementsByTagName('img')[2]
-var api= document.getElementsByTagName('img')[3]
-var api2= document.getElementsByTagName('img')[4]
-var petir2= document.getElementsByTagName('img')[5]
-var sword = document.getElementsByTagName('audio')[0];
-var pop = document.getElementsByTagName('audio')[1];
-var pop2 = document.getElementsByTagName('audio')[2];
-var pop3 = document.getElementsByTagName('audio')[3];
-var pop4 = document.getElementsByTagName('audio')[4];
 
 
 
@@ -102,7 +105,7 @@ setTimeout(() => {
 })
 
 
-jurus = ultimate.onclick = function (){
+ultimate.onclick = function (){
 setTimeout(() => {
     
     ninja1.setAttribute('id', 'satu');
@@ -192,7 +195,7 @@ setTimeout(() => {
 
 
 
-haha = devensive.addEventListener('click', function(){
+devensive.addEventListener('click', function(){
 setTimeout(() => {
 
 ninja1.setAttribute('id', 'satu');
